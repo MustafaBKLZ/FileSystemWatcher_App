@@ -34,7 +34,7 @@ namespace FileSystemWatcher_App
         }
         private void Created(object gelen, FileSystemEventArgs e)
         {
-            textBox1.Text += e.Name + "'da yeni bir dosya oluşturuldu " + Environment.NewLine;
+            textBox1.Text += e.Name + "'da yeni bir dosya oluşturuldu " + Environment.NewLine;  
         }
         private void Changed(object gelen, FileSystemEventArgs e)
         {
